@@ -1,8 +1,8 @@
 {
-  "SMTP_HOST": "smtp.gmail.com",
+  "SMTP_HOST": "smtp.votrefournisseur.com",
   "SMTP_PORT": 587,
-  "SMTP_USER": "ton.email@gmail.com",
-  "SMTP_PASSWORD": "mot_de_passe_application",
+  "SMTP_USER": "ibrahim.boughalem06@gmail.com",
+  "SMTP_PASSWORD": "qnjv fwvb kqxw jzju",
   "FROM_NAME": "LuxDrive",
-  "FROM_EMAIL": "ton.email@gmail.com"
+  "FROM_EMAIL": "ibrahim.boughalem06@gmail.com"
 }
