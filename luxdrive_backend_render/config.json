@@ -1,0 +1,8 @@
+{
+  "SMTP_HOST": "smtp.gmail.com",
+  "SMTP_PORT": 587,
+  "SMTP_USER": "ton.email@gmail.com",
+  "SMTP_PASSWORD": "mot_de_passe_application",
+  "FROM_NAME": "LuxDrive",
+  "FROM_EMAIL": "ton.email@gmail.com"
+}
