@@ -20,7 +20,7 @@ def send_confirmation_email(to_email, reservation):
     body = f"""
     <html>
     <body style='font-family:sans-serif;'>
-        <h2>Réservation confirmée</h2>
+        <h2>✅ Réservation confirmée</h2>
         <p>Bonjour <strong>{reservation['name']}</strong>,</p>
         <p>Merci pour votre réservation du véhicule <strong>{reservation['carName']}</strong>.</p>
         <ul>
@@ -70,7 +70,7 @@ def reserve():
 @app.route('/confirmation')
 def confirmation():
     return render_template_string("""
-        <h1>Réservation confirmée</h1>
+        <h1>✅ Réservation confirmée !</h1>
         <p>Merci pour votre confiance. Un conseiller LuxDrive vous contactera sous peu.</p>
         <a href="/">Retour à l'accueil</a>
     """)
@@ -81,7 +81,7 @@ def success():
 
 @app.route('/cancel')
 def cancel():
-    return "<h1>Paiement annulé</h1><p>La transaction a été interrompue.</p>"
+    return "<h1>Paiement annulé ❌</h1><p>La transaction a été interrompue.</p>"
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
